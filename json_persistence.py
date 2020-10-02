@@ -2,9 +2,9 @@ from json import JSONEncoder
 
 
 class MyClass:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+    def __init__(self, name, quiz):
+        self.name = name
+        self.quiz = quiz
 
 
 class MyEncoder(JSONEncoder):

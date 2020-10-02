@@ -5,4 +5,4 @@ def run():
     menu = Menu()
     should_exit = False
     while not should_exit:
-        should_exit = menu.process()
+        should_exit = menu.process

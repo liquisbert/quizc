@@ -11,6 +11,7 @@ class QuestionInputHandler(object):
         else:
             print(question.type.name + ' value:')
             answers = [input(self.MENU_PROMPT)]
+
         return answers
 
     def collect_answer_options(self, question):
